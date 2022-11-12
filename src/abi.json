@@ -1,0 +1,10 @@
+[
+  "function boosts(uint256) view returns (string strategyURI, address token, uint256 balance, address guard, uint256 start, uint256 end, address owner)",
+  "function claimTokens(tuple(uint256 boostId, address recipient, uint256 amount) claim, bytes signature)",
+  "function claimed(address, uint256) view returns (bool)",
+  "function createBoost(tuple(string strategyURI, address token, uint256 balance, address guard, uint256 start, uint256 end, address owner) boost)",
+  "function depositTokens(uint256 boostId, uint256 amount)",
+  "function eip712ClaimStructHash() view returns (bytes32)",
+  "function nextBoostId() view returns (uint256)",
+  "function withdrawRemainingTokens(uint256 boostId, address to)"
+]

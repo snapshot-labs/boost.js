@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Boost getBoost 1`] = `
+Object {
+  "balance": "100000000000000000",
+  "end": 1668341642,
+  "guard": "0xF63EB3f569C6cB8F5Cf37caD183790Ed1b251c91",
+  "owner": "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7",
+  "start": 1668082442,
+  "strategyURI": "ipfs://bafkreihfwpcbmgq7llxnwbwekql2kjwc33g2a6pqj5ylfxasbcnappage4",
+  "token": "0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60",
+}
+`;
+
+exports[`Boost getStrategy 1`] = `
+Object {
+  "params": Object {
+    "amount": "10000000000000000",
+    "proposal": "0x1b48a83c44e323275a605b244a05bde89918fb9ec86be7bb83792eb26e544441",
+    "type": "fixed",
+  },
+  "strategy": "snapshot",
+}
+`;
